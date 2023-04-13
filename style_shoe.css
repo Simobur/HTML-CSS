@@ -1,0 +1,52 @@
+article {
+  border-top: 5px solid #000;
+  border-right: 5px solid #000;
+  border-left: 5px solid #000;
+  /*   border-bottom: 1px solid #000; */
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+  background-color: #999;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.shipping {
+  color: #666;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:link {
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: square;
+}
+
+button {
+  text-transform: uppercase;
+  color: white;
+  background-color: #000;
+  /*   border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; */
+  border: none;
+  width: 105px;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
